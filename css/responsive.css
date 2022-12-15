@@ -1,0 +1,1715 @@
+@media(max-width:767px) {
+
+
+    /*============================
+        Home page css start
+    =============================*/
+
+    /*---- Nav_bar css start ----*/
+
+    .nav_bar {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ff9800;
+        border: none;
+        height: 40px;
+        width: 60px;
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #252d3e;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    .navbar-light .navbar-nav :hover {
+        background: #1c2436;
+    }
+
+    .nav_bar .dropdown-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .nav_bar .dropdown-menu .dropdown-item {
+        text-align: center;
+    }
+
+    .nav_bar .nav-sm {
+        border-radius: 0;
+        text-align: center;
+        background: #ff9800;
+    }
+
+    .nav_bar .nav-sm:hover {
+        background: #ffae36;
+    }
+
+    /*---- Nav_bar css end ----*/
+
+    /*---- Modal css start ----*/
+
+    .modal-dialog {
+        max-width: 400px;
+        margin: 50px auto;
+    }
+
+    .modal-content {
+        width: 400px;
+    }
+
+    .modal-body {
+        padding: 50px 30px;
+    }
+
+    .modal-body .btn {
+        margin-top: 30px;
+    }
+
+    .modal-body h3 {
+        margin-bottom: 30px;
+    }
+
+    /*---- Modal css end ----*/
+
+    /*---- Banner section css start ----*/
+
+    .banner_txt h1 {
+        font-size: 55px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+
+    .banner_txt h3 {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        padding: 7px;
+    }
+
+    .banner_txt h3 span {
+        font-size: 14px;
+    }
+
+    .social {
+        left: 15px;
+        bottom: 30px;
+    }
+
+    .social p {
+        display: none;
+    }
+
+    .social a i {
+        font-size: 16px;
+        margin: 0 4px;
+    }
+
+    .email {
+        right: 15;
+        bottom: 30px;
+    }
+
+    /*---- Banner section css end ----*/
+
+    /*---- Section title title css start ----*/
+
+    .sec_title {
+        margin-bottom: 45px;
+    }
+
+    .sec_title h3 {
+        font-size: 35px;
+    }
+
+    /*---- Section title css end ----*/
+
+    /*---- About section css start ----*/
+
+    #about {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .about-nav {
+        margin-bottom: 50px;
+    }
+
+    /* about tab css start */
+
+    .about_img {
+        margin-bottom: 45px;
+    }
+
+    .about_txt {
+        margin-left: 0;
+    }
+
+    .about_txt h3 {
+        font-size: 24px;
+    }
+
+    .about-detils p {
+        margin-bottom: 5px;
+    }
+
+    .about_cta {
+        margin: auto;
+    }
+
+    .about_cta a {
+        padding: 13px 7px;
+    }
+
+    /* about tab css end */
+
+    /* education tab css start */
+
+    .edu_txt {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .edu_txt h3 {
+        font-size: 24px;
+        padding-bottom: 13px;
+    }
+
+    .edu_col {
+        margin-top: 20px;
+    }
+
+    .edu_col h4 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .edu_img {
+        min-height: 540px;
+    }
+
+    .job_ex_txt {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .job_ex_txt h3 {
+        font-size: 24px;
+        padding-bottom: 13px;
+    }
+
+    .job_col {
+        margin-top: 20px;
+    }
+
+    .job_col h4 {
+        font-size: 15px;
+    }
+
+    /* education tab css end */
+
+    /* skills tab css start */
+
+    .skill_col {
+        margin-right: 0;
+        margin-bottom: 45px;
+    }
+
+    .skill_col h3 {
+        font-size: 24px;
+        padding-bottom: 13px;
+    }
+
+    .skill-bar-row .skill_bar {
+        width: 100%;
+    }
+
+    .language-margin {
+        margin-top: 0;
+    }
+
+    .lnnguage h4 {
+        font-size: 15px;
+    }
+
+    .skill_img {
+        min-height: 540px;
+    }
+
+    /* skills tab css end */
+
+    /*---- About section css end ----*/
+
+    /*---- Service section css start ----*/
+
+    #service {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .ser_col p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /*---- Service section css end ----*/
+
+    /*---- protfolio section css start ----*/
+
+    #protfolio {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .filter_btn {
+        margin-bottom: 45px;
+    }
+
+    .filter_btn .btn {
+        padding: 10px 25px;
+    }
+
+    .img_overlay_txt h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /*---- Protfolio section css end ----*/
+
+    /*---- Counter section css start ----*/
+
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .count_col {
+        margin-bottom: 30px;
+    }
+
+    .count_col i {
+        font-size: 28px;
+    }
+
+    .count_col h3 {
+        font-size: 28px;
+    }
+
+    .count_col p {
+        font-size: 14px;
+    }
+
+    /*---- Counter section css end ----*/
+
+    /*---- Testimonial section css start ----*/
+
+    #testimonial {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .test_col h4 {
+        font-size: 16px;
+    }
+
+    .test_col p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*---- Testimonial section css end ----*/
+
+    /*---- Blog section css start ----*/
+
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*---- Blog section css end ----*/
+
+    /*---- Contact section css start ----*/
+
+    #con-form {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .adrs-row {
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+
+    .con-col i {
+        font-size: 28px;
+    }
+
+    .con-col h4 {
+        font-size: 16px;
+    }
+
+    .con-col p {
+        font-size: 14px;
+    }
+
+    #con-form .btn {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    /*---- Contact section css end ----*/
+
+    /*---- Footer section css start ----*/
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*---- Footer section css end ----*/
+
+
+    /*============================
+        Inner Page css start
+    =============================*/
+
+    #inner-banner {
+        height: 250px;
+    }
+
+    .inner-banner-txt h3 {
+        margin-bottom: 0;
+    }
+
+
+    /*============================
+        Pagination css start
+    =============================*/
+
+    .pagination {
+        margin-top: 30px;
+    }
+
+
+    /*============================
+        About Page css start
+    =============================*/
+
+    #about-page {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #about-page .about-row,
+    #about-page .ap-adrs-row {
+        padding: 40px 15px;
+        margin-top: 50px;
+    }
+
+
+    /*============================
+        Protfolio Page css start
+    =============================*/
+
+    #protfolio-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    /*============================
+        Service Page css start
+    =============================*/
+
+    #service-page {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    /*============================
+        Blog-list Page css start
+    =============================*/
+
+    #blog-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    #blog-page .pagination {
+        margin-top: 40px;
+    }
+
+
+    /*===================================
+        Blog-list-Sidebar Page css start
+    =====================================*/
+
+    #blog-page-sidebar {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .blogs {
+        padding-right: 15px;
+    }
+
+    .search_bar {
+        margin-bottom: 30px;
+    }
+
+    .bps_col {
+        margin-bottom: 30px;
+    }
+
+    #blog-page-sidebar .pagination {
+        margin-top: 50px;
+    }
+
+
+    /*============================
+        Blog-details Page css start
+    =============================*/
+
+    #single-blog {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blog-details-img {
+        margin-bottom: 35px;
+    }
+
+    .blog-details {
+        margin-bottom: 35px;
+    }
+
+    .sblog-txt-title {
+        margin-bottom: 18px;
+    }
+
+    .sblog-txt p {
+        margin-bottom: 15px;
+    }
+
+    .tag-row {
+        margin-top: 30px;
+    }
+
+    .tag_head {
+        margin-bottom: 15px;
+    }
+
+    .blog-details .tag_detals ul li {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .comment-col {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .comment-child {
+        margin-top: 35px;
+        margin-left: 60px;
+    }
+
+    .comment-reply {
+        margin-left: 0;
+    }
+
+    .comment-reply-col {
+        padding-top: 35px;
+    }
+
+    .comment-reply-col .btn {
+        margin-top: 35px;
+    }
+
+
+    /*============================
+        Contact Page css start
+    =============================*/
+
+    #con-form-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    #con-form-page .btn {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+
+    /*============================
+        404 Page css start
+    =============================*/
+
+    .banner_404 .bnr_txt h1 {
+        font-size: 90px;
+        margin-bottom: 14px;
+    }
+
+    .banner_404 .bnr_txt h3 {
+        font-size: 14px;
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    .banner_404 .bnr_txt h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:575px) {
+
+
+    /*============================
+        Home page css start
+    =============================*/
+
+    /*---- Nav_bar css start ----*/
+
+    .navbar-light .navbar-toggler {
+        height: 36px;
+        width: 50px;
+    }
+
+    /*---- Nav_bar css end ----*/
+
+    /*---- Modal css start ----*/
+
+    .modal-dialog {
+        max-width: 290px;
+        margin: 50px auto;
+    }
+
+    .modal-content {
+        width: 290px;
+    }
+
+    .modal-body {
+        padding: 30px 15px;
+        padding-top: 35px;
+    }
+
+    button.close {
+        right: 15px;
+        top: 8px;
+    }
+
+    .modal-body .btn {
+        margin-top: 30px;
+    }
+
+    .modal-body h3 {
+        margin-bottom: 20px;
+    }
+
+    /*---- Modal css end ----*/
+
+    /*---- Banner section css start ----*/
+
+    .banner_txt h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .banner_txt h3 {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        padding: 7px;
+    }
+
+    .social {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
+    }
+
+    .email {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 20px;
+    }
+
+    .email p {
+        text-align: center;
+    }
+
+    .email a i {
+        display: none;
+    }
+
+    /*---- Banner section css end ----*/
+
+    /*---- Section title css start ----*/
+
+    .sec_title {
+        margin-bottom: 35px;
+    }
+
+    .sec_title h3 {
+        font-size: 30px;
+    }
+
+    /*---- Section title css end ----*/
+
+    /*---- About section css start ----*/
+
+    .about-nav {
+        margin-bottom: 35px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+
+    /* about tab css start */
+
+    .about_img {
+        margin-bottom: 35px;
+    }
+
+    .about_txt h4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .about_txt h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about_txt p {
+        margin-bottom: 20px;
+    }
+
+    .about-detils {
+        margin-bottom: 0;
+    }
+
+    .about-detils ul {
+        margin-bottom: 0;
+    }
+
+    .about-detils p {
+        margin-bottom: 5px;
+    }
+
+    .about_cta {
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .about_cta a {
+        width: 130px;
+        font-size: 14px;
+        padding: 10px 7px;
+        margin-right: 5px;
+    }
+
+    /* about tab css end */
+
+    /* education tab css start */
+
+    .edu_txt {
+        margin-bottom: 35px;
+        margin-right: 0;
+    }
+
+    .edu_txt h3 {
+        font-size: 20px;
+    }
+
+    .edu_img {
+        min-height: 450px;
+    }
+
+    .job_ex_txt {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+
+    .job_ex_txt h3 {
+        font-size: 24px;
+    }
+
+    /* education tab css end */
+
+    /* skills tab css start */
+
+    .skill_col {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .skill_col h3 {
+        font-size: 20px;
+    }
+
+    .chart-col {
+        margin-right: auto;
+        max-width: 105px;
+    }
+
+    .chart-col .chart {
+        height: 75px ! important;
+        width: 75px ! important;
+        line-height: 80px;
+    }
+
+    .chart-col .chart canvas {
+        height: 75px ! important;
+        width: 75px ! important;
+    }
+
+    .skill_img {
+        min-height: 450px;
+    }
+
+    /* skills tab css end */
+
+    /*---- About section css end ----*/
+
+    /*---- Protfolio section css start ----*/
+
+    #protfolio {
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+    .filter_btn {
+        margin-bottom: 15px;
+    }
+
+    .filter_btn .btn {
+        margin-bottom: 5px;
+    }
+
+    .protfolio_col {
+        margin-bottom: 15px;
+    }
+
+    /*---- Protfolio section css end ----*/
+
+    /*---- Testimonial section css start ----*/
+
+    .test_col p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*---- Testimonial section css end ----*/
+
+    /*---- Blog section css start ----*/
+
+    .blog-txt {
+        padding: 25px;
+    }
+
+    /*---- Blog section css end ----*/
+
+    /*---- Contact section css start ----*/
+
+    .adrs-row {
+        margin-bottom: 0;
+    }
+
+    .con-col {
+        margin-bottom: 30px;
+    }
+
+    #con-form .btn {
+        margin-top: 35px;
+    }
+
+    /*---- Contact section css end ----*/
+
+
+    /*============================
+        About Page css start
+    =============================*/
+
+    #about-page {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #about-page .about_cta {
+        margin-bottom: 10px;
+    }
+
+    #about-page .about-row {
+        padding: 30px 0px;
+        margin-top: 30px;
+        filter: none;
+        border-top: 1px solid #ededed;
+        padding-bottom: 0;
+    }
+
+    #about-page .ap-adrs-row {
+        padding: 30px 0px;
+        margin-top: 30px;
+        filter: none;
+        border-top: 1px solid #ededed;
+        padding-bottom: 0;
+    }
+
+
+    /*============================
+        Protfolio Page css start
+    =============================*/
+
+    #protfolio-page {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #protfolio-page .pagination {
+        margin-top: 35px;
+    }
+
+
+    /*============================
+        Service Page css start
+    =============================*/
+
+    #service-page {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+
+    /*============================
+        Blog-list Page css start
+    =============================*/
+
+    #blog-page {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #blog-page .bp-block-col {
+        margin-bottom: 25px;
+    }
+
+    #blog-page .pagination {
+        margin-top: 25px;
+    }
+
+
+    /*===================================
+        Blog-list-Sidebar Page css start
+    =====================================*/
+
+    #blog-page-sidebar {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    #blog-page-sidebar .bp-block-col {
+        margin-bottom: 20px;
+    }
+
+    #blog-page-sidebar .pagination {
+        margin-top: 40px;
+    }
+
+
+    /*============================
+        Blog-details Page css start
+    =============================*/
+
+    #single-blog {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .blog-details-img {
+        margin-bottom: 25px;
+    }
+
+    .tag-row {
+        margin-top: 25px;
+    }
+
+    .blog-sidebar {
+        margin-top: 25px;
+    }
+
+    .blog-details {
+        margin-bottom: 25px;
+    }
+
+    .comment-col {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .pr-none {
+        padding-right: 0;
+    }
+
+    .comment-child {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .comment-reply-col .btn {
+        margin-top: 25px;
+    }
+
+    .comment-reply-col p {
+        margin-top: 35px;
+    }
+
+
+    /*============================
+        Contact Page css start
+    =============================*/
+
+    #con-form-page {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+
+    /*============================
+        404 Page css start
+    =============================*/
+
+    .banner_404 .bnr_txt h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .banner_404 .bnr_txt h3 {
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .banner_404 .bnr_txt h2 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .social_ep a i {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+}
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+    /*============================
+        Home page css start
+    =============================*/
+
+    /*---- Nav_bar css start ----*/
+
+    .nav_bar {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #ff9800;
+        border: none;
+        height: 40px;
+        width: 60px;
+    }
+
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #252d3e;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+
+    .navbar-light .navbar-nav :hover {
+        background: #1c2436;
+    }
+
+    .nav_bar .dropdown-menu {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .nav_bar .dropdown-menu .dropdown-item {
+        text-align: center;
+    }
+
+    .nav_bar .nav-sm {
+        border-radius: 0;
+        text-align: center;
+        background: #ff9800;
+    }
+
+    .nav_bar .nav-sm:hover {
+        background: #ffae36;
+    }
+
+    /*---- Nav_bar css end ----*/
+
+    /*---- Modal css start ----*/
+
+    .modal-dialog {
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+    .modal-content {
+        width: 600px;
+    }
+
+    .modal-body {
+        padding: 50px 30px;
+    }
+
+    .modal-body .btn {
+        margin-top: 45px;
+    }
+
+    .modal-body h3 {
+        margin-bottom: 40px;
+    }
+
+    /*---- Modal css end ----*/
+
+    /*---- Banner section css start ----*/
+
+    .banner_txt h1 {
+        font-size: 60px;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+
+    .banner_txt h3 {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        padding: 7px;
+    }
+
+    .banner_txt h3 span {
+        font-size: 14px;
+    }
+
+    /*---- Banner section css end ----*/
+
+    /*---- Section title css start ----*/
+
+    .sec_title {
+        margin-bottom: 45px;
+    }
+
+    .sec_title h3 {
+        font-size: 35px;
+    }
+
+    /*---- Section title css end ----*/
+
+    /*---- About section css start ----*/
+
+    #about {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    .about-nav {
+        margin-bottom: 50px;
+    }
+
+    /* about tab css start */
+
+    .about_img {
+        margin-bottom: 45px;
+    }
+
+    .about_txt {
+        margin-left: 0;
+    }
+
+    /* about tab css end */
+
+    /* education tab css start */
+
+    .edu_txt {
+        margin-right: 0;
+    }
+
+    .edu_col {
+        margin-top: 20px;
+    }
+
+    .edu_col h4 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .job_ex_txt {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .job_col {
+        margin-top: 20px;
+    }
+
+    .job_col h4 {
+        font-size: 15px;
+    }
+
+    /* education tab css end */
+
+    /* skills tab css start */
+
+    .skill_col {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .skill_col .skill_bar {
+        width: 100%;
+    }
+
+    .skill-bar-row {
+        margin-top: 25px;
+    }
+
+    .language-margin {
+        margin-top: 0;
+    }
+
+    .chart-col {
+        margin-right: 0;
+        max-width: 120px;
+    }
+
+    .chart-col .chart {
+        height: 90px ! important;
+        width: 90px ! important;
+        line-height: 95px;
+    }
+
+    .chart-col .chart canvas {
+        height: 90px ! important;
+        width: 90px ! important;
+    }
+
+    .skill_img {
+        min-height: 540px;
+    }
+
+    /* skills tab css end */
+
+    /*---- About section css end ----*/
+
+    /*---- Service section css start ----*/
+
+    #service {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .ser_col p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /*---- Service section css end ----*/
+
+    /*---- Protfolio section css start ----*/
+
+    #protfolio {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    /*---- Protfolio section css end ----*/
+
+    /*---- Counter section css start ----*/
+
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*---- Counter section css end ----*/
+
+    /*---- Testimonial section css start ----*/
+
+    #testimonial {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    /*---- Testimonial section css end ----*/
+
+    /*---- Blog section css start ----*/
+
+    #blog {
+        padding-top: 80px;
+        padding-bottom: 85px;
+    }
+
+    /*---- Blog section css end ----*/
+
+    /*---- Contact section css start ----*/
+
+    #con-form {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    .adrs-row {
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+
+    .con-col i {
+        font-size: 28px;
+    }
+
+    .con-col h4 {
+        font-size: 16px;
+    }
+
+    .con-col p {
+        font-size: 14px;
+    }
+
+    #con-form .btn {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    /*---- Contact section css end ----*/
+
+    /*---- Footer section css start ----*/
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*---- Footer section css end ----*/
+
+
+    /*============================
+        Pagination css start
+    =============================*/
+
+    .pagination {
+        margin-top: 30px;
+    }
+
+
+    /*============================
+        About Page css start
+    =============================*/
+
+    #about-page {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    #about-page .about-row,
+    #about-page .ap-adrs-row {
+        margin-top: 70px;
+    }
+
+    #about-page .chart-col {
+        margin-right: 0;
+        max-width: 105px;
+    }
+
+    #about-page .chart-col .chart {
+        height: 75px ! important;
+        width: 75px ! important;
+        line-height: 80px;
+    }
+
+    #about-page .chart-col .chart canvas {
+        height: 75px ! important;
+        width: 75px ! important;
+    }
+
+
+    /*============================
+        Protfolio Page css start
+    =============================*/
+
+    #protfolio-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    /*============================
+        Service Page css start
+    =============================*/
+
+    #service-page {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    /*============================
+        Blog-list Page css start
+    =============================*/
+
+    #blog-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    /*===================================
+        Blog-list-Sidebar Page css start
+    =====================================*/
+
+    #blog-page-sidebar {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #blog-page-sidebar .pagination {
+        margin-top: 10px;
+    }
+
+    #blog-page-sidebar .follow_me a i {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 32px;
+        margin-right: 5px;
+    }
+
+    .blogs {
+        padding-right: 35px;
+    }
+
+
+    /*============================
+        Blog-details Page css start
+    =============================*/
+
+    #single-blog {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blog-details-img {
+        margin-bottom: 35px;
+    }
+
+    .sblog-txt p {
+        margin-bottom: 13px;
+    }
+
+    .tag-row {
+        margin-top: 35px;
+    }
+
+    .sblog-txt-title {
+        margin-bottom: 18px;
+    }
+
+    .tag-row {
+        margin-top: 30px;
+    }
+
+    .tag_head {
+        margin-bottom: 15px;
+    }
+
+    .blog-sidebar {
+        padding: 20px;
+    }
+
+    .blog-details {
+        margin-bottom: 35px;
+    }
+
+    .blog-details .tag_detals ul li {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .comment-reply {
+        margin-left: 0;
+    }
+
+    .comment-reply-col {
+        padding-top: 50px;
+    }
+
+    .comment-reply-col .btn {
+        margin-top: 50px;
+    }
+
+    .comment-reply {
+        padding-top: 20px;
+    }
+
+
+    /*============================
+        Contact Page css start
+    =============================*/
+
+    #con-form-page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    /*============================
+        404 Page css start
+    =============================*/
+
+    .banner_404 .bnr_txt h1 {
+        font-size: 110px;
+    }
+
+    .banner_404 .bnr_txt h3 {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .banner_404 .bnr_txt h2 {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+
+
+@media(min-width:992px) and (max-width:1199px) {
+
+
+    /*============================
+        Home Page css start
+    =============================*/
+
+    /*---- Banner section css start ----*/
+
+    .banner_txt h1 {
+        font-size: 75px;
+    }
+
+    /*---- Banner section css end ----*/
+
+    /*---- About section css start ----*/
+
+    /* about tab css start */
+
+    .about_txt {
+        margin-left: 35px;
+    }
+
+    /* about tab css end */
+
+    /* skills tab css start */
+
+    .chart-col {
+        margin-right: 15px;
+    }
+
+    /* skills tab css end */
+
+    /*---- About section css end ----*/
+
+
+    /*============================
+        Pagination css start
+    =============================*/
+
+    .pagination {
+        margin-top: 40px;
+    }
+
+
+    /*============================
+        About Page css start
+    =============================*/
+
+    #about-page {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    #about-page .about-row,
+    #about-page .ap-adrs-row {
+        margin-top: 90px;
+    }
+
+    #about-page .about-row {
+        padding: 40px 30px;
+    }
+
+    #about-page .edu_txt {
+        margin-right: 0;
+    }
+
+    #about-page .job_ex_txt {
+        margin-left: 0;
+    }
+
+    #about-page .chart-col {
+        margin-right: 5px;
+    }
+
+
+    /*============================
+        Protfolio Page css start
+    =============================*/
+
+    #protfolio-page {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+
+    /*============================
+        Service Page css start
+    =============================*/
+
+    #service-page {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+
+    /*============================
+        Blog-list Page css start
+    =============================*/
+
+    #blog-page {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+
+    /*===================================
+        Blog-list-Sidebar Page css start
+    =====================================*/
+
+    #blog-page-sidebar {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .blogs {
+        padding-right: 40px;
+    }
+
+    .follow_me a i {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+        line-height: 32px;
+        margin-right: 5px;
+    }
+
+
+    /*============================
+        Blog-details Page css start
+    =============================*/
+
+    #single-blog {
+        padding-top: 90px;
+        padding-bottom: 55px;
+    }
+
+    .sblog-txt-title {
+        margin-bottom: 20px;
+    }
+
+    .sblog-txt p {
+        margin-bottom: 13px;
+    }
+
+    .tag-row {
+        margin-top: 35px;
+    }
+
+    .blog-details {
+        margin-bottom: 35px;
+    }
+
+    .comment-col {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .comment-child {
+        margin-top: 35px;
+        margin-left: 70px;
+    }
+
+
+    /*============================
+        Contact Page css start
+    =============================*/
+
+    #con-form-page {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    #con-form-page .btn {
+        margin-top: 70px;
+    }
+}
