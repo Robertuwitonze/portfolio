@@ -79,14 +79,14 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <h3>Contact With Me</h3>
-                    <form>
+                    <form name="contactForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon6"><i class="fal fa-user"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Name *" aria-label="Name" aria-describedby="basic-addon6" required>
+                                    <input name = "name" type="text" class="form-control" placeholder="Name *" aria-label="Name" aria-describedby="basic-addon6">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -94,7 +94,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon7"><i class="fal fa-paper-plane"></i></span>
                                     </div>
-                                    <input type="email" class="form-control" placeholder="Email *" aria-label="Email" aria-describedby="basic-addon7" required>
+                                    <input name = "email" type="email" class="form-control" placeholder="Email *" aria-label="Email" aria-describedby="basic-addon7">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -102,7 +102,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon8"><i class="fal fa-phone-alt"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon8">
+                                    <input name = "phone" type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon8">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -110,14 +110,14 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon9"><i class="fal fa-map-marker-alt"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="basic-addon9">
+                                    <input name = "location" type="text" class="form-control" placeholder="Location*" aria-label="Location" aria-describedby="basic-addon9">
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <textarea class="form-control" placeholder="Type Your Message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                <textarea name = "message"class="form-control" placeholder="Type Your Message*" id="exampleFormControlTextarea1" rows="3" required></textarea>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn">Send Message</button>
+                                <button type="submit" class="btn" onclick="validateMe();">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -250,6 +250,23 @@
                 x.className += " responsive";
             } else {
                 x.className = "topnav";
+            }
+        }
+
+        function validateMe()
+        {
+            let a = document.forms["contactForm"]["name"].value;
+                        let b = document.forms["contactForm"]["phone"].value;
+
+                                    let c = document.forms["contactForm"]["email"].value;
+
+                                                let d = document.forms["contactForm"]["location"].value;
+
+                                                            let e= document.forms["contactForm"]["message"].value;
+
+            if (a == "" || b == "" || c == "" || d == "" || e == "" ) {
+                alert("fields with * are required");
+                return false;
             }
         }
     </script>
