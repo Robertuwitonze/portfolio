@@ -758,16 +758,15 @@
                     <div class="con-col text-center">
                         <i class="fal fa-mobile"></i>
                         <h4>Call Me On</h4>
-                        <p>+88 01345 123 856</p>
-                        <p>+88 01345 123 856</p>
+                        <p>+250 781352115</p>
+                        <p>+250 781352115</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
                     <div class="con-col text-center">
                         <i class="fal fa-envelope"></i>
                         <h4>Email Me At</h4>
-                        <p>yourmail@email.com</p>
-                        <p>yoursite@email.com</p>
+                        <p>robertu20002000@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -781,45 +780,56 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <form>
+                    <form name="messageForm">
                         <div class="row">
                             <div class="col-md-6">
+                                <p id="ndemo"></p>
                                 <div class="input-group">
+                                    
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1"><i class="fal fa-user"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Name *" aria-label="Name" aria-describedby="basic-addon1"  required>
+                                    <input type="text" class="form-control" name = "name" placeholder="Name *" aria-label="Name" aria-describedby="basic-addon1">
+                                    
                                 </div>
+                                
                             </div>
                             <div class="col-md-6">
+                                <p id="edemo"></p>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon2"><i class="fal fa-paper-plane"></i></span>
                                     </div>
-                                    <input type="email" class="form-control" placeholder="Email *" aria-label="Email" aria-describedby="basic-addon2" required>
+                                    <input type="email" name="email" class="form-control" placeholder="Email *" aria-label="Email" aria-describedby="basic-addon2">
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                                                <p id="pdemo"></p>
+
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon3"><i class="fal fa-phone-alt"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon3">
+                                    <input type="tel" pattern="[0-9]{10}" name="phone" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon3">
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                                                <p id="ldemo"></p>
+
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon4"><i class="fal fa-map-marker-alt"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="basic-addon4">
+                                    <input type="text" name="location" class="form-control" placeholder="Location" aria-label="Location" aria-describedby="basic-addon4">
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <textarea class="form-control" placeholder="Type Your Message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                                                <p id="mdemo"></p>
+
+                                <textarea class="form-control" name="message" placeholder="Type Your Message" id="exampleFormControlTextarea1" rows="3" ></textarea>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn">Send Message</button>
+                                <button type="submit" class="btn" onclick=" validateForm()">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -867,6 +877,8 @@
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+        <script src="js/messsage_validation.js"></script>
+
     
 </body>
 
