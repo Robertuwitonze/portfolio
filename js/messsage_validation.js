@@ -1,37 +1,43 @@
 function validateForm() {
-    let tex;
-  let name = document.forms["messageForm"]["name"].value;
-    let email = document.forms["messageForm"]["email"].value;
-      let phone = document.forms["messageForm"]["phone"].value;
+   
+    let ntex;
+    let etex;
+    let ptex;
+    let ltex;
+    let mtex;
 
-        let location = document.forms["messageForm"]["location"].value;
-          let message = document.forms["messageForm"]["message"].value;
+  let name = document.forms["messageForm"]["name"].value;
+  let email = document.forms["messageForm"]["email"].value;
+  let phone = document.forms["messageForm"]["phone"].value;
+
+  let location = document.forms["messageForm"]["location"].value;
+  let message = document.forms["messageForm"]["message"].value;
 
 
 
   if (name == "") {
-    tex = "Name must be filled out";
-      document.getElementById('ndemo').innerHTML = tex;
+    ntex = "Name must be filled out";
+      document.getElementById('ndemo').innerHTML = ntex;
 
   }
   if (email == "") {
-    tex = "email must be filled out";
-      document.getElementById('edemo').innerHTML = tex;
+    etex = "email must be filled out";
+      document.getElementById('edemo').innerHTML = etex;
 
   }
    if (phone == "") {
-    tex = "phone must be filled out";
-      document.getElementById('pdemo').innerHTML = tex;
+    ptex = "phone must be filled out";
+      document.getElementById('pdemo').innerHTML = ptex;
 
   }
   if (location == "") {
-    tex = "location must be filled out";
-      document.getElementById('ldemo').innerHTML = tex;
+    ltex = "location must be filled out";
+      document.getElementById('ldemo').innerHTML = ltex;
 
   }
   if (message == "") {
-    tex = "message must be filled out";
-      document.getElementById('mdemo').innerHTML = tex;
+    mtex = "message must be filled out";
+      document.getElementById('mdemo').innerHTML = mtex;
 
   }
 
