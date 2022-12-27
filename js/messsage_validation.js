@@ -137,13 +137,13 @@ function blog() {
   let bcategory = blogs[a].category;
   let bdetails = blogs[a].details;
 
-blogDiv.innerHTML+= ' <div class="col-md-12">'+
+blogDiv.innerHTML+= 
                     '<div class="blog-col">'+
                        '<div class="blog-date">'+
                            '<p>'+ bdate +'</p>'+
                       '</div>'+
                         '<div class="blog-img">'+
-                            '<img src="images/blog-img01.jpg" alt="blog-img01" class="img-fluid">'+
+                            '<img src="images/blog-img01.jpg" alt="blog-img01" " class="img-fluid">'+
                         '</div>'+
                         '<div class="blog-txt">'+
                             '<h4>Code Editor</h4>'+
