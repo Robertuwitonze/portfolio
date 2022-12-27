@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.png">
+    <title>Robert UWITONZE </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".nav_bar" data-offset="50">
+
+    <!-- Preloader start-->
+    <!-- <div class="preloder">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div> -->
+    <!-- Preloader end-->
+
+    <!-- Nav_bar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light nav_bar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"> Service </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="protfolio.html">Protfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#testimonial">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="blog-page.html">Blog-Page</a>
+                            <a class="dropdown-item" href="blog-list.html">Blog-Details</a>
+                            <a class="dropdown-item" href="blog-sidebar.html">Blog-Page-Sidebar</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-sm" data-toggle="modal" data-target="#exampleModal"> Send Message </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav_bar end -->
+
+    <!-- Modal start-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3>Contact With Me</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon6"><i
+                                                class="fal fa-user"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Name *" aria-label="Name"
+                                        aria-describedby="basic-addon6" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon7"><i
+                                                class="fal fa-paper-plane"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" placeholder="Email *" aria-label="Email"
+                                        aria-describedby="basic-addon7" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon8"><i
+                                                class="fal fa-phone-alt"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone"
+                                        aria-describedby="basic-addon8">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon9"><i
+                                                class="fal fa-map-marker-alt"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Location" aria-label="Location"
+                                        aria-describedby="basic-addon9">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" placeholder="Type Your Message"
+                                    id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end-->
+
+    <!-- Inner Page Banner part start -->
+    <section id="inner-banner">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12">
+                    <div class="inner-banner-txt text-center">
+                        <h3> post Blod </h3>
+                        <p> <a href="index.html">Home</a> <span><i class="far fa-chevron-right"></i></span> <a
+                                href="blog-sidebar.html">Blog</a> <span><i class="far fa-chevron-right"></i></span> <a
+                                href="blog-details.html">Post blog</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inner Page Banner part end -->
+
+    <!-- Single-blog part start -->
+    <section id="single-blog">
+        <div class="container">
+
+          
+
+            <!-- blog details part start -->
+            <div class="row blog-details">
+                <!-- blog text part start -->
+                <div class="col-md-8 col-lg-9">
+                  
+                    
+                  
+
+                </div>
+                <!-- blog text part end -->
+
+                <!-- blog text sidebar part start -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="blog-sidebar">
+                        <div class="bsidebar-col">
+                            <h4> <span><i class="far fa-user-alt"></i></span> Posted By</h4>
+                            <p>Jubayer Hossain</p>
+                        </div>
+                        <div class="bsidebar-col">
+                            <h4> <span><i class="fal fa-calendar-alt"></i></span> Posted Date</h4>
+                            <p>26 October 2019</p>
+                        </div>
+                        <div class="bsidebar-col">
+                            <h4> <span><i class="fal fa-layer-group"></i></span> Category</h4>
+                            <p>Social Media Marketing</p>
+                        </div>
+                        <div class="bsidebar-col">
+                            <h4> <span><i class="far fa-alarm-clock"></i></span> Reading Time</h4>
+                            <p>Approximately 8 Minutes</p>
+                        </div>
+                        <div class="bsidebar-col">
+                            <h4> <span><i class="far fa-edit"></i></span> Last Update</h4>
+                            <p>26 October 2018</p>
+                        </div>
+                        <div class="bsidebar-col mb-0">
+                            <h3> Share Now </h3>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog text sidebar part end -->
+            </div>
+            <!-- blog details part end  -->
+
+            <!-- blog comment part start -->
+            <div class="row comment-row">
+                
+                <!-- blog comment form part start -->
+                <div class="col-lg-6 col-mg-12">
+                    <div class="comment-reply">
+                        <h3>Create blog</h3>
+                        <div class="comment-reply-col">
+                            <form name="blogForm">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                                                                                                                                                    <p style="color: red;" id="name"></p>
+
+                                        <div class="input-group">
+
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fal fa-user"></i></span>
+                                            </div>
+                                            <input type="text" name="name" class="form-control" placeholder="Name *"
+                                                aria-label="Name" aria-describedby="basic-addon1" >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                                                                                                        <p style="color: red;" id="title"></p>
+
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon2"><i class="fal fa-edit"></i></span>
+                                            </div>
+                                            <input type="text" id="title" name="title" class="form-control" placeholder="Blog title *" aria-label=""
+                                                aria-describedby="basic-addon2" >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                                                                                                        <p style="color: red;" id="date"></p>
+
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fal fa-calendar-alt"></i></span>
+                                            </div>
+                                            <input type="date" class="form-control" name="date" id=" date"placeholder="date *" aria-label="Name" aria-describedby="basic-addon1"
+                                                >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                                                                <p style="color: red;" id="category"></p>
+
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1"><i class="fal fa-layer-group"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" name="category" id="category" placeholder="category *" aria-label="Name" aria-describedby="basic-addon1"
+                                                >
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                        <p style="color: red;" id="detail"></p>
+                                        <textarea class="form-control" name="details" placeholder="Type Your log"
+                                            id="exampleFormControlTextarea2" rows="3" ></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn" onclick="blog();">Post</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog comment form part end -->
+            </div>
+            <!-- blog comment part end -->
+        </div>
+    </section>
+    <!-- Single-blog part end -->
+
+    <!-- Footer section start -->
+    <section id="footer">
+        <div class="container text-center">
+            <div class="f-logo">
+                <img src="images/logo.png" alt="logo.png" class="img-fluid">
+            </div>
+            <div class="f-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>© Copyright | <span>JAVEN</span> 2022 All Right Reserved</p>
+        </div>
+    </section>
+    <!-- Footer section end -->
+
+    <!-- Back to top button start -->
+    <div class="top">
+        <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- Back to top button end -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/icon.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/messsage_validation.js"></script>
+</body>
+
+</html>

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/respo.css">
 </head>
-<body data-spy="scroll" data-target=".nav_bar" data-offset="50">
+<body onload="getBlogs();" data-spy="scroll" data-target=".nav_bar" data-offset="50">
     
     <!-- Preloader start-->
     <!-- <div class="preloder">
@@ -50,15 +50,23 @@
                         
                             <a class="nav-link" href="#testimonial">Clients</a>
                         
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" >
                                 Blog
+                                
+                                    <button style="background-color:rgba(0, 0, 0, 0);" onclick="myDrop()" class="dropbtn"><i class="fa-solid fa-caret-down"></i></i></button>
+                                   
+                                        <div id="myDropdown" class="dropdown-content" >
+                                            <a class="#dropdown-item" href="create-post.html">Post Blog</a>
+                                            <a class="#dropdown-item" href="blog-list.html">Blog-List</a>
+                                            <!-- <a class="#dropdown-item" href="blog-sidebar.html">Blog-Sidebar-Page</a> -->
+                                        </div>
+                                    
+                                    
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="blog-list.html">Blog-List</a>
-                                <a class="dropdown-item" href="blog-details.html">Blog-Details</a>
-                                <a class="dropdown-item" href="blog-sidebar.html">Blog-Sidebar-Page</a>
-                            </div>
+                       
+                        
+                            
                        
                             <a class="nav-link" href="#con-form">Contact</a>
                                 <a  style="margin-left: 1cm; padding: 10px 15px;" href="#" class="nav-sm" data-toggle="modal" data-target="#exampleModal"> Send Message </a>
@@ -654,6 +662,7 @@
     
     <!-- Blog section start -->
     <section id="blog">
+        <form >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -662,84 +671,17 @@
                     </div>
                 </div>
             </div>
-            <div class="row blog_slider">
-                <div class="col-md-12">
-                    <div class="blog-col">
-                       <div class="blog-date">
-                           <p> MARCH 23, 2019 </p>
-                       </div>
-                        <div class="blog-img">
-                            <img src="images/blog-img01.jpg" alt="blog-img01" class="img-fluid">
-                        </div>
-                        <div class="blog-txt">
-                            <h4>Code Editor</h4>
-                            <h3>
-                                <a href="blog-details.html">Top tools for Pro Web Designers Need to Know</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipis icing elit. Itaque animi magnam odio corp oris tempora magni.</p>
-                            <a href="blog-details.html" class="read-more">Read More...</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="row blog_slider" id="blogz">
+              
                 
-                <div class="col-md-12">
-                    <div class="blog-col">
-                       <div class="blog-date">
-                           <p> MARCH 23, 2019 </p>
-                       </div>
-                        <div class="blog-img">
-                            <img src="images/blog-img02.jpg" alt="blog-img02" class="img-fluid">
-                        </div>
-                        <div class="blog-txt">
-                            <h4>Ui/Ux Books</h4>
-                            <h3>
-                                <a href="blog-details.html">Top Books for Pro Web Designers Should Read</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipis icing elit. Itaque animi magnam odio corp oris tempora magni.</p>
-                            <a href="blog-details.html" class="read-more">Read More...</a>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="col-md-12">
-                    <div class="blog-col">
-                       <div class="blog-date">
-                           <p> MARCH 23, 2019 </p>
-                       </div>
-                        <div class="blog-img">
-                            <img src="images/blog-img03.jpg" alt="blog-img03" class="img-fluid">
-                        </div>
-                        <div class="blog-txt">
-                            <h4>Office Space</h4>
-                            <h3>
-                                <a href="blog-details.html">Best office decoration for Web Designers</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipis icing elit. Itaque animi magnam odio corp oris tempora magni.</p>
-                            <a href="blog-details.html" class="read-more">Read More...</a>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="col-md-12">
-                    <div class="blog-col">
-                       <div class="blog-date">
-                           <p> MARCH 23, 2019 </p>
-                       </div>
-                        <div class="blog-img">
-                            <img src="images/blog-img04.jpg" alt="blog-img04" class="img-fluid">
-                        </div>
-                        <div class="blog-txt">
-                            <h4>Graphic Design</h4>
-                            <h3>
-                                <a href="blog-details.html">Without good design it’s easy to miss the mark.</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipis icing elit. Itaque animi magnam odio corp oris tempora magni.</p>
-                            <a href="blog-details.html" class="read-more">Read More...</a>
-                        </div>
-                    </div>
-                </div>
+                
+                
+                
             </div>
         </div>
+        </form>
     </section>
     <!-- Blog section end -->
     
@@ -829,7 +771,7 @@
                                 <textarea class="form-control" name="message" placeholder="Type Your Message" id="exampleFormControlTextarea1" rows="3" ></textarea>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn" onclick=" validateForm()">Send Message</button>
+                                <button type="submit" class="btn" onclick=" return validateForm()">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -876,8 +818,12 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/messsage_validation.js"></script>
+        <script src="js/dropdown.js"></script>
+
     <script src="js/main.js"></script>
         <script src="js/messsage_validation.js"></script>
+        <script src="https://kit.fontawesome.com/3469ce9eef.js" crossorigin="anonymous"></script>
 
     
 </body>
