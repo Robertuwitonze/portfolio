@@ -412,7 +412,7 @@ button.close {
 
 .banner_bg:after {
     content: "";
-    background: url(../images/banner01.jpg) center center no-repeat;
+    background: url(../images/home.jpg) center center no-repeat;
     background-size: cover;
     position: absolute;
     z-index: -2;
@@ -450,7 +450,7 @@ button.close {
 /*----- simple background banner css start -----*/
 
 .simple_bg {
-    background: url(../images/banner01.jpg) center center no-repeat;
+    background: url(../images/home.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -473,7 +473,7 @@ button.close {
 /*----- particles background banner css start -----*/
 
 .particles_bg {
-    background: url(../images/banner01.jpg) center center no-repeat;
+    background: url(../images/home.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;

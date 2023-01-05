@@ -48,15 +48,20 @@
             
                 <a class="nav-link" href="#testimonial">Clients</a>
             
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Blog
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="blog-list.html">Blog-List</a>
-                    <a class="dropdown-item" href="blog-details.html">Blog-Details</a>
-                    <a class="dropdown-item" href="blog-sidebar.html">Blog-Sidebar-Page</a>
-                </div>
+                <a class="dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" >
+                Blog
+                
+                    <button style="background-color:rgba(0, 0, 0, 0);" onclick="myDrop()" class="dropbtn"><i class="fa-solid fa-caret-down"></i></i></button>
+                   
+                        <div id="myDropdown" class="dropdown-content" >
+                            <a class="#dropdown-item" href="create-post.html">Post Blog</a>
+                            <a class="#dropdown-item" href="blog-list.html">Blog-List</a>
+                            <!-- <a class="#dropdown-item" href="blog-sidebar.html">Blog-Sidebar-Page</a> -->
+                        </div>
+                    
+                    
+            </a>
             
                 <a class="nav-link" href="#con-form">Contact</a>
                 <a style="margin-left: 1cm; padding: 10px 15px;" href="#" class="nav-sm" data-toggle="modal"
@@ -156,164 +161,30 @@
                 <div class="col-md-12">
                     <div class="filter_btn text-center">
                         <button type="button" class="btn" data-filter="all">ALL</button>
-                        <button type="button" class="btn" data-filter=".brnd">BRANDING</button>
-                        <button type="button" class="btn" data-filter=".ph">PHOTOGRAPHY</button>
-                        <button type="button" class="btn" data-filter=".ui">UI/UX</button>
+                       
                     </div>
                 </div>
             </div>
             <div class="row mix_fil">
                 <div class="col-md-6 col-lg-4 col-sm-6 mix brnd">
                     <div class="protfolio_col">
-                        <img src="images/prot_img_01.jpg" alt="prot_img_01" class="img-fluid w-100">
+                        <img src="images/calculator.png" alt="calculator" class="img-fluid w-100">
                         <div class="img_overlay">
                            <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_01.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Web Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ph ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_02.jpg" alt="prot_img_02" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_02.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Web Devlopment</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix brnd">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_03.jpg" alt="prot_img_03" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_03.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Admin Panel Toiri</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_04.jpg" alt="prot_img_04" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_04.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Food App Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_05.jpg" alt="prot_img_05" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_05.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>App Graphics</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_06.jpg" alt="prot_img_06" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_06.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Illustration Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix brnd">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_07.jpg" alt="prot_img_07" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_07.jpg"><i class="fas fa-expand"></i></a>
+                               <a  href="calculator/calculator.htm"><i class="fas fa-expand"></i></a>
                                <h4>App Devlopment</h4>
                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ph">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_08.jpg" alt="prot_img_08" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_08.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>UI/UX Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ph">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_09.jpg" alt="prot_img_09" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_09.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>App UI/UX Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_10.jpg" alt="prot_img_10" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_10.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Food App Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_11.jpg" alt="prot_img_11" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_11.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>App Graphics</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_12.jpg" alt="prot_img_12" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_12.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Illustration Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <div class="col-md-6 col-lg-4 col-sm-6 mix ph ui">
                     <div class="protfolio_col">
-                        <img src="images/prot_img_13.jpg" alt="prot_img_13" class="img-fluid w-100">
+                        <img src="images/todo-list.png" alt="prot_img_02" class="img-fluid w-100">
                         <div class="img_overlay">
                            <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_13.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Web Devlopment</h4>
+                               <a href="todo-list/index.html"><i class="fas fa-expand"></i></a>
+                               <h4>App Devlopment</h4>
                            </div>
                         </div>
                     </div>
@@ -321,27 +192,25 @@
                 
                 <div class="col-md-6 col-lg-4 col-sm-6 mix brnd">
                     <div class="protfolio_col">
-                        <img src="images/prot_img_14.jpg" alt="prot_img_14" class="img-fluid w-100">
+                        <img src="images/portfolio.png" alt="portfolio" class="img-fluid w-100">
                         <div class="img_overlay">
                            <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_14.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Admin Panel Toiri</h4>
+                               <a   href="index.html"><i class="fas fa-expand"></i></a>
+                               <h4>Web Development</h4>
                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-4 col-sm-6 mix ui">
-                    <div class="protfolio_col">
-                        <img src="images/prot_img_15.jpg" alt="prot_img_15" class="img-fluid w-100">
-                        <div class="img_overlay">
-                           <div class="img_overlay_txt">
-                               <a class="venobox" data-gall="myGallery" href="images/prot_img_15.jpg"><i class="fas fa-expand"></i></a>
-                               <h4>Food App Design</h4>
-                           </div>
-                        </div>
-                    </div>
-                </div>
+                
+                
+                
+                
+              
+                
+               
+                
+                
             </div>
             
             <!-- pagination part start -->
