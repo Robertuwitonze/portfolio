@@ -651,7 +651,7 @@
                     <form name="messageForm">
                         <div class="row">
                             <div class="col-md-6">
-                                <p id="ndemo"></p>
+                                <p id="ndemo" style="color:red;"></p>
                                 <div class="input-group">
                                     
                                     <div class="input-group-prepend">
@@ -663,7 +663,7 @@
                                 
                             </div>
                             <div class="col-md-6">
-                                <p id="edemo"></p>
+                                <p id="edemo" style="color:red;"></p>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon2"><i class="fal fa-paper-plane"></i></span>
@@ -672,7 +672,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                                                <p id="pdemo"></p>
+                                                                <p id="pdemo" style="color:red;"></p>
 
                                 <div class="input-group">
                                     <div class="input-group-prepend">
@@ -682,7 +682,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                                                <p id="ldemo"></p>
+                                                                <p id="ldemo" style="color:red;"></p>
 
                                 <div class="input-group">
                                     <div class="input-group-prepend">
@@ -692,12 +692,12 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                                                <p id="mdemo"></p>
+                                                                <p id="mdemo" style="color:red;"></p>
 
                                 <textarea class="form-control" name="message" placeholder="Type Your Message" id="exampleFormControlTextarea1" rows="3" ></textarea>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn" onclick=" return validateForm()">Send Message</button>
+                                <button type="submit" class="btn" id="sendMessage" onclick=" validateForm(e)">Send Message</button>
                             </div>
                         </div>
                     </form>
